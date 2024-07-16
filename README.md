@@ -21,29 +21,28 @@ A PowerShell script to manage Azure VM backups, generate reports, and assign bac
 1. Open PowerShell as an administrator.
 2. Navigate to the directory containing the script.
 3. Run the script with your Azure subscription ID as a parameter:
-   .\AzureVMBackupManagement.ps1 -subscriptionId "your-subscription-id"
 
-4. The script will prompt you to log in to your Azure account.
-5. Once connected, you can choose from the following options:
+   ```.\AzureVMBackupManagement.ps1 -subscriptionId "your-subscription-id"```
 
-    <li>Export VM backup report to CSV
-    <li>View and assign backup policy to all VMs without backup
-    <li>View and assign backup policy to a single VM
-    <li>Exit the script
+5. The script will prompt you to log in to your Azure account.
+6. Once connected, you can choose from the following options:
 
-
+    - Export VM backup report to CSV
+    - View and assign backup policy to all VMs without backup
+    - View and assign backup policy to a single VM
+    - Exit the script
 
 ## Features
 
-     <li>Collect Azure VM and Recovery Services Vault information
-     <li>Generate VM backup report
-     <li>Export VM backup status to CSV
-     <li>Assign backup policies to VMs without backup (individually or in bulk)
+     Collect Azure VM and Recovery Services Vault information
+     Generate VM backup report
+     Export VM backup status to CSV
+     Assign backup policies to VMs without backup (individually or in bulk)
 
 ## Notes
 
-    <li>The script uses the "DefaultPolicy" for backup policy assignments. Ensure this policy exists in your Recovery Services Vault or modify the script to use a different policy.
-    <li>The script will disconnect from the Azure account upon exiting.
+    The script uses the "DefaultPolicy" for backup policy assignments. Ensure this policy exists in your Recovery Services Vault or modify the script to use a different policy.
+    The script will disconnect from the Azure account upon exiting.
 
 For more detailed information about the script's functionality, please refer to the comments within the script file.
 Copyright g0hst 2022
