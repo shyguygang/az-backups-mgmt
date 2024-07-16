@@ -26,10 +26,10 @@ A PowerShell script to manage Azure VM backups, generate reports, and assign bac
 4. The script will prompt you to log in to your Azure account.
 5. Once connected, you can choose from the following options:
 
-     <li>Export VM backup report to CSV
-     <li>View and assign backup policy to all VMs without backup
-     <li>View and assign backup policy to a single VM
-     <li>Exit the script
+    <li>Export VM backup report to CSV
+    <li>View and assign backup policy to all VMs without backup
+    <li>View and assign backup policy to a single VM
+    <li>Exit the script
 
 
 
