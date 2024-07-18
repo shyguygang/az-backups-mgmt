@@ -16,22 +16,25 @@ Before you begin, ensure you have:
 2. Install the Azure PowerShell module by running:
    ```powershell
    Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
+   ```
 
 ## 🔧 Usage
 
 1. Open PowerShell as an administrator.
 2. Navigate to the directory containing the script.
 3. Run the script with your Azure subscription ID as a parameter:
-```powershell
+   ```powershell
    .\AzureVMBackupManagement.ps1 -subscriptionId "your-subscription-id"
+   ```
 
 Log in to your Azure account when prompted.
+
 Choose from the following options:
 
-Export VM backup report to CSV
-View and assign backup policy to all VMs without backup
-View and assign backup policy to a single VM
-Exit the script
+1. Export VM backup report to CSV
+2. View and assign backup policy to all VMs without backup
+3. View and assign backup policy to a single VM
+4. Exit the script
 
 ##🌟 Features
 
