@@ -1,4 +1,3 @@
-```markdown
 # ✨ Azure VM Backup Management Script ✨
 
 A PowerShell script to manage Azure VM backups, generate reports, and assign backup policies.
