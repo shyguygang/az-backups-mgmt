@@ -44,6 +44,6 @@ A PowerShell script to manage Azure VM backups, generate reports, and assign bac
     The script uses the "DefaultPolicy" for backup policy assignments. Ensure this policy exists in your Recovery Services Vault or modify the script to use a different policy.
     The script will disconnect from the Azure account upon exiting.
 
-For more detailed information about the script's functionality, please refer to the comments within the script file.
-Copyright g0hst 2022
-This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
+- For more detailed information about the script's functionality, please refer to the comments within the script file.
+- Copyright g0hst 2022
+- This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
