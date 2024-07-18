@@ -36,20 +36,20 @@ Choose from the following options:
 3. View and assign backup policy to a single VM
 4. Exit the script
 
-##🌟 Features
+## 🌟 Features
 
 1. Collect Azure VM and Recovery Services Vault information
 2. Generate VM backup report
 3. Export VM backup status to CSV
 4. Assign backup policies to VMs without backup (individually or in bulk)
 
-##📝 Notes
+## 📝 Notes
 
 1. The script uses the "DefaultPolicy" for backup policy assignments. Ensure this policy exists in your Recovery Services Vault or modify the script to use a different policy.
 2. The script will disconnect from the Azure account upon exiting.
 3. For more detailed information about the script's functionality, please refer to the comments within the script file.
 
-👤 Author
+## 👤 Author
 (c) g0hst 2022
 
 📄 License
